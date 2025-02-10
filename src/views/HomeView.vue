@@ -4,7 +4,7 @@ import { ElCard } from 'element-plus'
 </script>
 
 <template>
-  <AppView class="flex flex-col gap-2 p-3">
+  <AppView class="flex flex-col gap-2">
     <el-card style="max-width: 480px">
       <template #header>Yummy Homeburger</template>
       <img
