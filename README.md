@@ -9,6 +9,7 @@ A robust boilerplate for building Vue Applications.
 - Element Plus: A Vue 3 based component library for designers and developers.
 - Vue Router & Pinia
 - UnoCSS with the Wind Preset, transformers & fonts
+- Unplugin Icons with Material Design Icons
 
 ## Getting Started
 
@@ -76,5 +77,5 @@ npm run test
 
 ### Planned Features
 
-- [ ] Unplugin Icons
-- [ ] Loader between routes
+- [x] Unplugin Icons
+- [x] Loader between routes
