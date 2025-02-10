@@ -1,6 +1,7 @@
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
+import Icons from 'unplugin-icons/vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
@@ -14,7 +15,7 @@ export default defineConfig({
     __NAME__: JSON.stringify(pkg.name),
     __VERSION__: JSON.stringify(pkg.version),
   },
-  plugins: [vue(), UnoCSS(), vueJsx(), vueDevTools()],
+  plugins: [vue(), UnoCSS(), Icons({}), vueJsx(), vueDevTools()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
