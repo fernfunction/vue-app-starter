@@ -1,45 +1,79 @@
-# vue-app-starter
+# Terminal App Starter
 
-This template should help get you started developing with Vue 3 in Vite.
+A robust boilerplate for building Vue Applications.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- TypeScript: Modern, typed JavaScript out of the box.
+- Prettier & ESLint: Enforce consistent coding styles and catch common issues.
+- Element Plus: A Vue 3 based component library for designers and developers.
+- Vue Router & Pinia
+- UnoCSS with the Wind Preset, transformers & fonts
 
-## Type Support for `.vue` Imports in TS
+## Getting Started
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Prerequisites
 
-## Customize configuration
+- NodeJS 16 or newer
+- NPM or Yarn
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Installation
 
-## Project Setup
+1. Clone the repository:
 
-```sh
-yarn
+```bash
+git clone https://github.com/fernfunction/vue-app-starter.git
+cd ts-terminal-starter
 ```
 
-### Compile and Hot-Reload for Development
+2. Install dependencies:
 
-```sh
-yarn dev
+```bash
+npm install
 ```
 
-### Type-Check, Compile and Minify for Production
+### Development
 
-```sh
-yarn build
+To start the application in development mode:
+
+```bash
+npm run dev
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Build
 
-```sh
-yarn test:unit
+To compile the application:
+
+```bash
+npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Linting and Formatting
 
-```sh
-yarn lint
+#### Linting
+
+Linting is done with ESLint. To lint the application:
+
+```bash
+npm run lint
 ```
+
+### Formatting
+
+Formatting is done with Prettier. To format the application:
+
+```bash
+npm run format
+```
+
+### Testing
+
+Testing is done with Jest, upon running the command below or before a commit. To test the application:
+
+```bash
+npm run test
+```
+
+### Planned Features
+
+- [ ] Unplugin Icons
