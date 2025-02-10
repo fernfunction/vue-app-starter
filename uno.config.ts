@@ -1,4 +1,4 @@
-import { defineConfig, presetWebFonts, presetWind } from 'unocss'
+import { defineConfig, presetWebFonts, presetWind, transformerDirectives } from 'unocss'
 
 export default defineConfig({
   presets: [
@@ -11,6 +11,7 @@ export default defineConfig({
       },
     }),
   ],
+  transformers: [transformerDirectives()],
   extendTheme: [
     (theme) => {
       return theme
