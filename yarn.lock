@@ -1201,7 +1201,7 @@
     "@unocss/preset-wind" "65.4.3"
     "@unocss/rule-utils" "65.4.3"
 
-"@unocss/preset-web-fonts@65.4.3":
+"@unocss/preset-web-fonts@65.4.3", "@unocss/preset-web-fonts@^65.4.3":
   version "65.4.3"
   resolved "https://registry.yarnpkg.com/@unocss/preset-web-fonts/-/preset-web-fonts-65.4.3.tgz#380dce6e1e40293379ab50d9504ebbbf605c49e9"
   integrity sha512-edkyohQ4+qjuOxIJf+NeQiEayB47A9eA2NhBLbcqZ0OfMpN8tRZPVW5cyB3b5Ef253NGMd4S8H/96vGTBpqOBA==
@@ -1209,7 +1209,7 @@
     "@unocss/core" "65.4.3"
     ofetch "^1.4.1"
 
-"@unocss/preset-wind@65.4.3":
+"@unocss/preset-wind@65.4.3", "@unocss/preset-wind@^65.4.3":
   version "65.4.3"
   resolved "https://registry.yarnpkg.com/@unocss/preset-wind/-/preset-wind-65.4.3.tgz#c1f4ccc4355f1d2bcca0e7dec82fd81e8126e8ac"
   integrity sha512-KM13xIARNeZ/ZKJr33fZ89l79wgI+1Oo8VPJzmckLjbH9IGOhcH2GON7wVIxQqqqM9IM3vALEqw2KNdM6ontWw==
