@@ -77,3 +77,4 @@ npm run test
 ### Planned Features
 
 - [ ] Unplugin Icons
+- [ ] Loader between routes
